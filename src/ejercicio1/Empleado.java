@@ -31,6 +31,12 @@ public class Empleado {
         this.dni = dni;
     }
     
+    public Empleado(String nombre, String apellido, double salario, String dni) {
+        this();
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+    
     //Getters y setters
 
     public String getNombre() {
